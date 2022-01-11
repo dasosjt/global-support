@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e6d4e76-fd6d-4658-8e2a-af9242fa14a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/place.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/place.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/place.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +59,22 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
           <option name="imageTag" value="geo-server" />
+          <option name="buildOnly" value="true" />
           <option name="containerName" value="" />
           <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
@@ -102,6 +112,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
@@ -118,7 +129,7 @@
       <updated>1641794651170</updated>
       <workItem from="1641794655005" duration="2570000" />
       <workItem from="1641860842779" duration="73000" />
-      <workItem from="1641860925139" duration="3310000" />
+      <workItem from="1641860925139" duration="10255000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1641864126011</created>
@@ -134,7 +145,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641866123984</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="intellij config files">
+      <created>1641866300794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641866300794</updated>
+    </task>
+    <task id="LOCAL-00004" summary="node config files&#10;edit .gitignore">
+      <created>1641866349264</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1641866349264</updated>
+    </task>
+    <task id="LOCAL-00005" summary="setup initial App&#10;add Dockerfile&#10;add package-lock.json&#10;add package-lock.json&#10;add tsconfig.json">
+      <created>1641870682718</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1641870682718</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +192,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
     <MESSAGE value="intellij and node config files" />
-    <option name="LAST_COMMIT_MESSAGE" value="intellij and node config files" />
+    <MESSAGE value="intellij config files" />
+    <MESSAGE value="node config files&#10;edit .gitignore" />
+    <MESSAGE value="setup initial App&#10;add Dockerfile&#10;add package-lock.json&#10;add package-lock.json&#10;add tsconfig.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup initial App&#10;add Dockerfile&#10;add package-lock.json&#10;add package-lock.json&#10;add tsconfig.json" />
   </component>
 </project>
