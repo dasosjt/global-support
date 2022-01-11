@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src", //tells TS that our .ts source code files will be in the ./src folder
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node", //must be set to node for node projects.
+    "outDir": "./build" //tells TS where to put the compiled JavaScript code when the TS files are compiled.
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
