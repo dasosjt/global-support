@@ -4,7 +4,8 @@
   "scripts": {
     "start": "pm2-runtime start build/app.js --name app",
     "build": "tsc -p .",
-    "dev": "nodemon src/app.ts"
+    "dev": "nodemon src/app.ts",
+    "lint": "eslint . --ext .ts"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
@@ -12,6 +13,9 @@
     "@types/redis": "^4.0.11",
     "@types/sequelize": "^4.28.11",
     "@types/validator": "^13.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint": "^8.6.0",
     "nodemon": "^2.0.15",
     "pm2": "^5.1.2",
     "ts-node": "^10.4.0",
