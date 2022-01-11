@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e6d4e76-fd6d-4658-8e2a-af9242fa14a1" name="Changes" comment="edit endpoint">
-      <change afterPath="$PROJECT_DIR$/src/models/distanceQuery.model.ts" afterDir="false" />
+    <list default="true" id="8e6d4e76-fd6d-4658-8e2a-af9242fa14a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redis/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redis/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/place.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/place.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/place.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/place.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
       <recent name="$PROJECT_DIR$/src/db" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.web: Compose Deployment">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -123,9 +119,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.docker-compose.yml.web: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.start" />
       </list>
@@ -220,7 +216,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641889871078</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update README.md with explanation">
+      <created>1641893783934</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641893783935</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add geo dist logic and endpoint">
+      <created>1641893811626</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1641893811626</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update workspace.xml">
+      <created>1641893829152</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1641893829152</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +272,9 @@
     <MESSAGE value="I lost time updating my docker daemon&#10;setup logic to create locations" />
     <MESSAGE value="postgis setup" />
     <MESSAGE value="redis setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis setup" />
+    <MESSAGE value="Update README.md with explanation" />
+    <MESSAGE value="add geo dist logic and endpoint" />
+    <MESSAGE value="update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
   </component>
 </project>
