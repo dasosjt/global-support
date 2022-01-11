@@ -1,5 +1,6 @@
 import express from 'express';
 import dbClient from './db';
+import routes from './routes/index';
 
 const app = express();
 const port = 8080;
@@ -17,6 +18,4 @@ app.listen(port, () => {
     console.log(`application is running on port ${port}.`);
 });
 
-app.get('/status', (req, res) => {
-    res.send('OK')
-})
+routes(app);

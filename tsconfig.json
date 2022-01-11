@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./src", //tells TS that our .ts source code files will be in the ./src folder
     "module": "commonjs",
-    "target": "es5",
+    "target": "esnext",
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
