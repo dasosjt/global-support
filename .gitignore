@@ -1,1 +1,4 @@
-./node_modules
+# Builded files
+/build/
+# Node modules
+/node_modules/
