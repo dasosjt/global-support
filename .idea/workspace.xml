@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e6d4e76-fd6d-4658-8e2a-af9242fa14a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/db/models/place.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/place.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redis/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/place.routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/place.service.ts" afterDir="false" />
+    <list default="true" id="8e6d4e76-fd6d-4658-8e2a-af9242fa14a1" name="Changes" comment="edit endpoint">
+      <change afterPath="$PROJECT_DIR$/src/models/distanceQuery.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redis/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redis/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/place.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/place.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/place.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/place.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src/db" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+  <component name="RunManager" selected="Docker.docker-compose.yml.web: Compose Deployment">
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -126,9 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.docker-compose.yml.web: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.start" />
       </list>
@@ -202,7 +199,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641876827654</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="I lost time updating my docker daemon&#10;setup logic to create locations">
+      <created>1641887309349</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641887309349</updated>
+    </task>
+    <task id="LOCAL-00010" summary="postgis setup">
+      <created>1641887338643</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1641887338643</updated>
+    </task>
+    <task id="LOCAL-00011" summary="redis setup">
+      <created>1641889871078</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1641889871078</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +252,9 @@
     <MESSAGE value="added docker-compose.yml&#10;test connection with DB postgresql" />
     <MESSAGE value="update .idea workspace.xml for docker-compose file" />
     <MESSAGE value="add linter" />
-    <option name="LAST_COMMIT_MESSAGE" value="add linter" />
+    <MESSAGE value="I lost time updating my docker daemon&#10;setup logic to create locations" />
+    <MESSAGE value="postgis setup" />
+    <MESSAGE value="redis setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis setup" />
   </component>
 </project>
