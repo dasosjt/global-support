@@ -20,15 +20,17 @@ const getPlaceByName = async (placeName: string): Promise<IPlace> => {
     }).then((place: any) => {
             return {
                 name: place.name,
-                lat: place.coordinates.coordinates[1],
-                long: place.coordinates.coordinates[0]};
+                lat: place.coordinates.coordinates[1], // TODO check if its correct to set in this order
+                long: place.coordinates.coordinates[0]
+            };
         });
 }
 
 const calculateDistance = async (placeName1: string, placeName2: string, unit: string): Promise<number> => {
-    const place1 = await getPlaceByName(placeName1);
-    const place2 = await getPlaceByName(placeName2);
-    return redisGeoDistance(place1, place2, unit);
+    return Promise.all([getPlaceByName(placeName1), getPlaceByName(placeName2)])
+        .then(async (placesResponse: IPlace[]) => {
+        return await redisGeoDistance(placesResponse[0], placesResponse[1], unit);
+    });
 }
 
 export default {createPlace, calculateDistance};
