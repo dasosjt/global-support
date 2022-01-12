@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8e6d4e76-fd6d-4658-8e2a-af9242fa14a1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redis/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redis/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641893829152</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fail fast approach&#10;&#10;https://stackoverflow.com/questions/45285129/any-difference-between-await-promise-all-and-multiple-await#:~:text=Always%20use%20Promise.,multiple%20then%20s%20in%20promises.">
+      <created>1641950684266</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1641950684266</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +266,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
@@ -275,6 +283,7 @@
     <MESSAGE value="Update README.md with explanation" />
     <MESSAGE value="add geo dist logic and endpoint" />
     <MESSAGE value="update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update workspace.xml" />
+    <MESSAGE value="fail fast approach&#10;&#10;https://stackoverflow.com/questions/45285129/any-difference-between-await-promise-all-and-multiple-await#:~:text=Always%20use%20Promise.,multiple%20then%20s%20in%20promises." />
+    <option name="LAST_COMMIT_MESSAGE" value="fail fast approach&#10;&#10;https://stackoverflow.com/questions/45285129/any-difference-between-await-promise-all-and-multiple-await#:~:text=Always%20use%20Promise.,multiple%20then%20s%20in%20promises." />
   </component>
 </project>

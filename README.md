@@ -20,13 +20,26 @@ To remove docker-compose run in other terminal:
 ```Bash
 docker-compose down
 ```
-
 Calculate geo distance
+```CURL
 curl http://localhost:8080/place/distance?placeName1=Guatemala&placeName2=Mexico&unit=km
+```
 
 Add geoelement
-curl POST http://localhost:8080/place -d {
-"name": "Guatemala",
-"lat": 14.628434,
-"long": -90.522713
-}
+```CURL
+curl -X POST http://localhost:8080/place 
+   -H 'Content-Type: application/json'
+   -d '{
+        "name": "Guatemala",
+        "lat": 14.628434,
+        "long": -90.522713
+    }'
+```
+
+# DEV 
+Run ```npm run dev``` in command line base directory
+where package.json is reachable
+
+you can remove service web for develop to make it easier
+changes in real time
+
